@@ -30,6 +30,7 @@ int foo_function(int* x, int* y, int* z) {
   *x = *y * *z;
   int f = *x;
   g = *x + *y + *z;
+  printf("changin it up now SON!\n\n");
   printf("%d be talkin shit about that sum: %d\n",f ,g);
   return 0;
 }
